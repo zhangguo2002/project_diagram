@@ -479,8 +479,8 @@
         <mxCell id="TL7NvAF6mEW8mt4Q94En-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;抓取进程3&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880.0000000000001" y="4740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TL7NvAF6mEW8mt4Q94En-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;KOL列表推文代币提及-Redis写入队列&lt;/b&gt;&lt;br&gt;&lt;/font&gt;队列名:Write-Redis-Kol-TokenAddress-Count" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCFFCC;width=250;height=50;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="5200" width="300" height="200" as="geometry" />
+        <mxCell id="TL7NvAF6mEW8mt4Q94En-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;KOL列表推文代币提及-Redis写入队列&lt;/b&gt;&lt;br&gt;&lt;/font&gt;队列名:Write-Redis-KOL-List-Tweet-TokenAddress-Count" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCFFCC;width=320;height=40;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="5200" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="TL7NvAF6mEW8mt4Q94En-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TL7NvAF6mEW8mt4Q94En-44" target="TL7NvAF6mEW8mt4Q94En-41">
           <mxGeometry relative="1" as="geometry" />
@@ -503,14 +503,14 @@
         <mxCell id="TL7NvAF6mEW8mt4Q94En-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TL7NvAF6mEW8mt4Q94En-55" target="TL7NvAF6mEW8mt4Q94En-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TL7NvAF6mEW8mt4Q94En-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;KOL列表推文原生数据队列&lt;/b&gt;&lt;br&gt;&lt;/font&gt;队列名:Write-ES-Kol-TokenAddress-Count" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCFFCC;width=250;height=50;" vertex="1" parent="1">
+        <mxCell id="TL7NvAF6mEW8mt4Q94En-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;KOL列表推文原生数据队列&lt;/b&gt;&lt;br&gt;&lt;/font&gt;队列名:Write-ES-KOL-List-Tweet-Raw-Data" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCFFCC;width=250;height=50;" vertex="1" parent="1">
           <mxGeometry x="-833" y="5480" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="TL7NvAF6mEW8mt4Q94En-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;消息格式&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;{&lt;/span&gt;&lt;br&gt;代币地址&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="5261" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="TL7NvAF6mEW8mt4Q94En-57" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;消息格式&lt;/h1&gt;&lt;p&gt;{&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;推文原生数据&lt;br&gt;}&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="5540" width="180" height="120" as="geometry" />
+          <mxGeometry x="-810" y="5540" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="TL7NvAF6mEW8mt4Q94En-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;写入推文信息原生数据ES中&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
           <mxGeometry x="-771.5" y="5840" width="177" height="90" as="geometry" />
