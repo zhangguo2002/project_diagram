@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="DkC_prD0v3U8Wd_PVia3">
-    <mxGraphModel dx="7524" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11367" dy="2675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YbZ3tlFvYskvO0IkU671-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="6730" width="1350" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZ3tlFvYskvO0IkU671-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="7550" width="2420" height="1030" as="geometry" />
+        </mxCell>
         <mxCell id="UOhJGm3NhoNirZsMdT3K-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="380" width="220" height="150" as="geometry" />
         </mxCell>
@@ -594,13 +600,15 @@
           <mxGeometry x="-1860" y="4990" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TL7NvAF6mEW8mt4Q94En-140" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;状态机模块&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1390.75" y="8540" width="290" height="70" as="geometry" />
+          <mxGeometry x="-640" y="7600" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TL7NvAF6mEW8mt4Q94En-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TL7NvAF6mEW8mt4Q94En-153" target="TL7NvAF6mEW8mt4Q94En-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbZ3tlFvYskvO0IkU671-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL7NvAF6mEW8mt4Q94En-158" target="TL7NvAF6mEW8mt4Q94En-163">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YbZ3tlFvYskvO0IkU671-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL7NvAF6mEW8mt4Q94En-158" target="YbZ3tlFvYskvO0IkU671-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="6960" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TL7NvAF6mEW8mt4Q94En-158" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;有效订单新代币队列&lt;/b&gt;&lt;br&gt;&lt;/font&gt;队列名:Write-Redis-Final-Order" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCFFCC;width=250;height=50;" parent="1" vertex="1">
           <mxGeometry x="850" y="6850" width="300" height="220" as="geometry" />
@@ -617,16 +625,13 @@
         <mxCell id="TL7NvAF6mEW8mt4Q94En-153" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;有效订单新币触发器&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" parent="1" vertex="1">
           <mxGeometry x="367.5" y="6920" width="168" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TL7NvAF6mEW8mt4Q94En-163" value="写入代币价格Redis中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="6930" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="YbZ3tlFvYskvO0IkU671-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TL7NvAF6mEW8mt4Q94En-165" target="YbZ3tlFvYskvO0IkU671-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TL7NvAF6mEW8mt4Q94En-165" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;根据有效订单中的代币地址寻找该代币的价格，并推算出价格的波动幅度&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="TL7NvAF6mEW8mt4Q94En-165" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;根据有效订单中的代币地址寻找该代币的价格，并推算出价格的波动幅度&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" parent="1" vertex="1">
           <mxGeometry x="1220" y="7780" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ScBpTq5Fcgt5T7dgGQpx-4" value="循环检查Redis执行订单" style="rhombus;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
+        <mxCell id="ScBpTq5Fcgt5T7dgGQpx-4" value="循环检查Redis执行订单" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" parent="1" vertex="1">
           <mxGeometry x="1240" y="8330" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ScBpTq5Fcgt5T7dgGQpx-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.3;endAngle=0.1;fillColor=#99FFCC;strokeColor=#FFB570;" parent="1" vertex="1">
@@ -658,13 +663,10 @@
         <mxCell id="YbZ3tlFvYskvO0IkU671-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;消息格式&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;{&lt;br&gt;有效订单信息，&lt;br&gt;波动幅度信息&lt;br&gt;}&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="7770" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="YbZ3tlFvYskvO0IkU671-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL7NvAF6mEW8mt4Q94En-163" target="TL7NvAF6mEW8mt4Q94En-163">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="YbZ3tlFvYskvO0IkU671-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbZ3tlFvYskvO0IkU671-11" target="YbZ3tlFvYskvO0IkU671-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbZ3tlFvYskvO0IkU671-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;决策执行哪条动态策略&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YbZ3tlFvYskvO0IkU671-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;决策执行哪条动态策略&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="1">
           <mxGeometry x="420" y="7790" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbZ3tlFvYskvO0IkU671-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbZ3tlFvYskvO0IkU671-13">
@@ -683,7 +685,7 @@
             <mxPoint x="-220" y="8010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbZ3tlFvYskvO0IkU671-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;交易服务&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YbZ3tlFvYskvO0IkU671-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;交易服务&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="1">
           <mxGeometry x="-280" y="7790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbZ3tlFvYskvO0IkU671-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbZ3tlFvYskvO0IkU671-20">
@@ -699,6 +701,15 @@
         </mxCell>
         <mxCell id="YbZ3tlFvYskvO0IkU671-23" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;写入有效订单Redis&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
           <mxGeometry x="-325" y="8430" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZ3tlFvYskvO0IkU671-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;写入代币价格Redis&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="6930" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZ3tlFvYskvO0IkU671-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbZ3tlFvYskvO0IkU671-26" target="YbZ3tlFvYskvO0IkU671-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZ3tlFvYskvO0IkU671-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;遍历代币价格Redis中的所有代币地址并进行查价&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="6915" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
