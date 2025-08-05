@@ -211,6 +211,76 @@
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-66" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-327" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.5" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-68" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="459.5" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-70" value="监听&lt;br&gt;675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.25" y="1860" width="333.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524.9999999999995" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-72" value="&quot;Instruction: Create&quot; 和 &quot;Instruction: InitializeMint2&quot; 的日志，识别新的代币创建交易" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="2080" width="292" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524.9999999999995" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-74" value="解析源数据获得&lt;br&gt;相应的配对代币和数量及初始流动性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="2270" width="307" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-75" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1079.5" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-77" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1019.5" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-79" value="监听&lt;br&gt;&lt;div&gt;LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="913.25" y="1860" width="333.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1084.9999999999995" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-81" value="&quot;Instruction: Create&quot; 和 &quot;Instruction: InitializeMint2&quot; 的日志，识别新的代币创建交易" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="939" y="2080" width="292" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1084.9999999999995" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-83" value="解析源数据获得&lt;br&gt;相应的配对代币和数量及初始流动性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="931.5" y="2270" width="307" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-84" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
