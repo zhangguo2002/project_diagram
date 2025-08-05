@@ -1,9 +1,31 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="6ny4iAK-fgTeWSgnf-Er">
-    <mxGraphModel>
+    <mxGraphModel dx="1281" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dM6Wh53GjmMQni_ABU6o-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-2" value="推特KOL列表爬取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dM6Wh53GjmMQni_ABU6o-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-4" value="从twitter_valid_crawl_cookie_queue获取相应的cookie&lt;br&gt;从twitter_valid_crawl_listid_queue&lt;div&gt;获取相应的listid&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
