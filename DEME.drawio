@@ -162,8 +162,13 @@
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-52" value="Solana-Pumpfun链上抓取流程图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="1620" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RD3R9KxEMgsufhgu1Dzc-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-332" y="1860" width="120" height="60" as="geometry" />
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-272" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-54" value="监听&lt;br&gt;6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-438.75" y="1860" width="333.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-56">
           <mxGeometry relative="1" as="geometry">
@@ -186,6 +191,25 @@
         </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-60" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="963" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-267.00000000000045" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-62" value="&quot;Instruction: Create&quot; 和 &quot;Instruction: InitializeMint2&quot; 的日志，识别新的代币创建交易" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="2080" width="292" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-267.00000000000045" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-64" value="解析源数据获得&lt;br&gt;相应的配对代币和数量及初始流动性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420.5" y="2270" width="307" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-66" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-327" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
