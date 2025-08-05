@@ -23,8 +23,24 @@
         <mxCell id="dM6Wh53GjmMQni_ABU6o-4" value="从twitter_valid_crawl_cookie_queue获取相应的cookie&lt;br&gt;从twitter_valid_crawl_listid_queue&lt;div&gt;获取相应的listid&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="170" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dM6Wh53GjmMQni_ABU6o-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dM6Wh53GjmMQni_ABU6o-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-6" value="记录每个listid最新的entryId，保证之抓取最新推文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dM6Wh53GjmMQni_ABU6o-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-11" value="新推文发送至twitter_tweet_data_queue&lt;br&gt;队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dM6Wh53GjmMQni_ABU6o-13" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
