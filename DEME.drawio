@@ -140,8 +140,14 @@
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-44" value="获取每个PoolCreated交易哈希的交易回执" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="480" width="260" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-46" target="RD3R9KxEMgsufhgu1Dzc-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-46" value="从Mint事件中获取流动性大小&lt;br&gt;从PoolCreated事件中获取两个代币的地址&lt;br&gt;还有相应的流动性地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="907.5" y="670" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-47" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
