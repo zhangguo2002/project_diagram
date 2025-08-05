@@ -275,7 +275,7 @@
             <mxPoint x="1084.9999999999995" y="2430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RD3R9KxEMgsufhgu1Dzc-83" value="解析源数据获得&lt;br&gt;相应的配对代币和数量及初始流动性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-83" value="解析交易，获取创建者、新代币的Mint地址和初始投资额、获取代币元数据。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="931.5" y="2270" width="307" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-84" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
