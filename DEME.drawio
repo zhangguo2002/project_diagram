@@ -197,7 +197,7 @@
             <mxPoint x="-267.00000000000045" y="2260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RD3R9KxEMgsufhgu1Dzc-62" value="&quot;Instruction: Create&quot; 和 &quot;Instruction: InitializeMint2&quot; 的日志，识别新的代币创建交易" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-62" value="过滤&quot;Instruction: Create&quot; 和 &quot;Instruction: InitializeMint2&quot; 的日志，识别新的代币创建交易" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-413" y="2080" width="292" height="90" as="geometry" />
         </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-64">
@@ -232,7 +232,7 @@
             <mxPoint x="524.9999999999995" y="2260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RD3R9KxEMgsufhgu1Dzc-72" value="&quot;Instruction: Create&quot; 和 &quot;Instruction: InitializeMint2&quot; 的日志，识别新的代币创建交易" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-72" value="过滤`raydium_pool_v4_factory_address` 的日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="379" y="2080" width="292" height="90" as="geometry" />
         </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-74">
