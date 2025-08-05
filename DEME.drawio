@@ -89,6 +89,11 @@
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-28" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1019.9999999999995" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-29" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -108,8 +113,27 @@
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-33" value="获取每个PairCreated交易哈希的交易回执" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="490" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="RD3R9KxEMgsufhgu1Dzc-37" value="从Transfer事件中获取流动性&lt;br&gt;从PairCreated事件中获取两个 代币的地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.00000000000045" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-37" value="从Transfer事件中获取流动性大小&lt;br&gt;从PairCreated事件中获取两个 代币的地址&lt;br&gt;还有相应的流动池i地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="670" width="255" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-39" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1019.9999999999995" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-42" value="监听&lt;br&gt;0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865&lt;div&gt;PoolCreated事件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="300" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-44" value="获取每个PoolCreated交易哈希的交易回执" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="480" width="260" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
