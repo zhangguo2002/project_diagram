@@ -126,6 +126,9 @@
             <mxPoint x="1019.9999999999995" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-42" target="RD3R9KxEMgsufhgu1Dzc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-42" value="监听&lt;br&gt;0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865&lt;div&gt;PoolCreated事件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="865" y="300" width="310" height="120" as="geometry" />
         </mxCell>
@@ -300,6 +303,44 @@
         </mxCell>
         <mxCell id="RD3R9KxEMgsufhgu1Dzc-93" value="发送到&lt;br&gt;blockchain_solana_raydium_pool_v4_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="939.75" y="2430" width="307" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-95" value="EVM-BSC-data-processor链上抓取流程图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="80" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-96" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-98" value="监听并消费&lt;br&gt;blockchain_evm_bsc_erc20_queue&lt;br&gt;队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1507.5" y="310" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-100" value="补全各个ERC20代币的name、symbol、decimals" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RD3R9KxEMgsufhgu1Dzc-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="850.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-102" value="发送到&lt;br&gt;blockchain_bsc_fourmeme_queue、&lt;br&gt;blockchain_bsc_pancakeswapv2_queue、&lt;br&gt;blockchain_bsc_pancakeswapv3_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="590" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RD3R9KxEMgsufhgu1Dzc-104" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="850" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
