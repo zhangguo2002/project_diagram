@@ -34,24 +34,28 @@
         <mxCell id="7nsPLkVv_Np0HIZuRffJ-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;同时调用下面这6种API&lt;br&gt;FourMeme平台&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Token0查询：`http://127.0.0.1:8080/api/selectSortedByField?index=blockchain_bsc_fourmeme&amp;amp;searchField=token0Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Token1查询：`http://127.0.0.1:8080/api/selectSortedByField?index=blockchain_bsc_fourmeme&amp;amp;searchField=token1Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;PancakeSwap V2&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Token0查询：`http://127.0.0.1:8080/api/selectSortedByField?index=blockchain_bsc_pancakeswapv2&amp;amp;searchField=token0Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Token1查询：`http://127.0.0.1:8080/api/selectSortedByField?index=blockchain_bsc_pancakeswapv2&amp;amp;searchField=token1Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;PancakeSwap V3&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Token0查询：`http://127.0.0.1:8080/api/selectSortedByField?index=blockchain_bsc_pancakeswapv3&amp;amp;searchField=token0Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Token1查询：`http://127.0.0.1:8080/api/selectSortedByField?index=blockchain_bsc_pancakeswapv3&amp;amp;searchField=token1Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;br&gt;&lt;br&gt;&lt;div&gt;PumpFun平台&lt;/div&gt;&lt;div&gt;- Token0查询：`http://192.168.0.130:20527/api/selectSortedByField?index=blockchain_solana_pumpfun&amp;amp;searchField=token0Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div&gt;- Token1查询：`http://192.168.0.130:20527/api/selectSortedByField?index=blockchain_solana_pumpfun&amp;amp;searchField=token1Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BonkFun平台&lt;/div&gt;&lt;div&gt;- Token0查询：`http://192.168.0.130:20527/api/selectSortedByField?index=blockchain_solana_bonkfun&amp;amp;searchField=token0Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div&gt;- Token1查询：`http://192.168.0.130:20527/api/selectSortedByField?index=blockchain_solana_bonkfun&amp;amp;searchField=token1Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Raydium平台&lt;/div&gt;&lt;div&gt;- Token0查询：`http://192.168.0.130:20527/api/selectSortedByField?index=blockchain_solana_raydium&amp;amp;searchField=token0Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;div&gt;- Token1查询：`http://192.168.0.130:20527/api/selectSortedByField?index=blockchain_solana_raydium&amp;amp;searchField=token1Address&amp;amp;searchValue={address}&amp;amp;matchMode=2`&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="710" width="700" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="7nsPLkVv_Np0HIZuRffJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nsPLkVv_Np0HIZuRffJ-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="1440" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="7nsPLkVv_Np0HIZuRffJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nsPLkVv_Np0HIZuRffJ-9" target="7nsPLkVv_Np0HIZuRffJ-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nsPLkVv_Np0HIZuRffJ-9" value="多个API响应有结果，那么就形成多个订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="1340" width="230" height="60" as="geometry" />
+        <mxCell id="7nsPLkVv_Np0HIZuRffJ-9" value="多个API响应有结果，挑选出1个小时之内的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1340" width="245" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nsPLkVv_Np0HIZuRffJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nsPLkVv_Np0HIZuRffJ-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="1550" as="targetPoint" />
+            <mxPoint x="427.5" y="1630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7nsPLkVv_Np0HIZuRffJ-11" value="发送到&lt;br&gt;(amqp://admin:admin@192.168.0.130:5672)&lt;br&gt;multi_strategy_on_one_token_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1440" width="240" height="60" as="geometry" />
+          <mxGeometry x="307.5" y="1520" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nsPLkVv_Np0HIZuRffJ-13" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1550" width="120" height="60" as="geometry" />
+          <mxGeometry x="367.5" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nsPLkVv_Np0HIZuRffJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nsPLkVv_Np0HIZuRffJ-14" target="7nsPLkVv_Np0HIZuRffJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nsPLkVv_Np0HIZuRffJ-14" value="当筛选完之后有多个数据那么就有多个订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301.5" y="1430" width="252" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
